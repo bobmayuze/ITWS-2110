@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<directory>
+	<project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 2 Web Basics</menuDesc>
+	    <menuURL>/lab2/ChrisParadis-lab2part3.html</menuURL>
+	</project>
+
+	<project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 3 JavaScript and the Document Object Model</menuDesc>
+	    <menuURL>/lab3/lab3solution.htm</menuURL>
+	</project>
+
+    <project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 4 AJAX/JSON</menuDesc>
+	    <menuURL>/lab4/Lab4.html</menuURL>
+	</project>
+
+	<project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 5 Website</menuDesc>
+	    <menuURL>/lab5/Projects.html</menuURL>
+	</project>
+
+    <project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 6 Front End Optimization</menuDesc>
+	    <menuURL>/lab6/lab6.html</menuURL>
+	</project>
+
+    <project>
+		<menuName>Web Systems Development</menuName>
+	    <menuDesc>Lab 7 PHP</menuDesc>
+	    <menuURL>/lab7/lab7.php</menuURL>
+	</project>
+</directory>
+
+

@@ -1,0 +1,115 @@
+html{
+    background: url('ice.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+ 
+      a:hover { 
+      background-color:white;
+      }
+
+      li {
+        list-style:none;
+        color:white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+      }
+
+        #menu1 li {
+          list-style:none;
+          color:black;
+          text-shadow:
+          -1px -1px 0 white,
+          1px -1px 0 white,
+          -1px 1px 0 white,
+          1px 1px 0 white; 
+        }
+      h1 {
+        color:white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+        margin-left: 36px;
+      }
+      a {
+        color:white;
+      }
+
+      .mainContent {
+        width: 353px;
+        height: 300px;
+        clear:both;
+        text-align: center;
+        margin-left:0px;
+        margin-bottom:0px;
+        padding-left: 0px;
+        color: white;
+        border-style:solid;
+        border-width:2px; 
+        border-top: 0px;
+        border-bottom: 0px;
+      }
+
+      .mainContent li{
+        margin-left: auto;
+        margin-right: auto;
+        width: 12em
+      }
+
+      #title {
+        font-variant: small-caps;
+      }
+      #desc {
+        color: black;
+      }
+      #url {
+        padding-left: 0px;
+      }
+      
+
+      .menu {
+        float:left;
+        width:100%;
+        padding:0;
+        margin:0;
+        list-style-type:none;
+      }
+
+      .menu a{
+        float:left;
+        width:155.5px;
+        text-decoration:none;
+        color:white;
+        padding:0.2em 0.6em;
+        text-align: center;
+        border-style:solid;
+        border-width:2px; 
+      }
+
+      .footer {
+        text-align:center;
+        width: 353px;
+        clear: both;
+        position: relative;
+        height: 1em;
+        font-size: .9em;
+        margin-top:0px;
+        padding-left: 0px;
+        color: white;
+        border-style:solid;
+        border-width:2px; 
+        border-top: 0px;
+      }
+
+      .footer li {
+        margin-left: auto;
+        margin-right: auto;
+        width: 12em
+        }

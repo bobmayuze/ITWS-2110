@@ -1,0 +1,40 @@
+playlist
+{
+  background-color: #ffffff;
+  display:block;
+  width: 100%;
+}
+SONGNAME
+{
+  display: block;
+  margin-top: 30pt;
+  margin-left: 0;
+  font-size: 12pt;
+}
+ARTISTNAME
+{
+  margin-top: 6pt;
+  display:block;
+  color: blue;
+  font-size: 14pt;
+}
+ALBUMNAME
+{
+  margin-top:6pt;
+  display: block;
+  font-size: 14pt;
+  font-style: italic;
+}
+RELEASEDATE,GENRE,ARTISTNAMEWEBSITE
+{
+  margin-top: 6pt;
+  display: block;
+  color: #000000;
+  font-size: 14pt;
+}
+
+CONVERTING
+{
+  margin-top: 6pt;
+  display: block;
+}

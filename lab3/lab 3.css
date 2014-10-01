@@ -1,0 +1,42 @@
+    h1 {
+      text-align:center;
+    }
+
+    .quote, #info {
+      font-size:1.25em;
+      letter-spacing:0.05em;
+      width:50%;
+      margin:1em auto;
+    }
+    .quote .attribution {
+      font-size:0.8em;
+      font-style:italic;
+    }
+    .quote .attribution:before {
+      content:'-- ';
+    }
+    .quote:hover{
+      background-color: yellow;
+      margin-left: 410px;
+    }
+
+    #mylist p {
+      font-size:1.25em;
+    }
+
+    #mylist2{
+      font-size:1.25em;
+      letter-spacing:0.05em;
+      width:50%;
+      margin:1em auto;
+    }
+
+    #mylist2 div{
+      font-size:1.25em;
+    }
+
+    #mylist2:hover{
+      background-color: yellow;
+      margin-left: 410px;
+    }
+    

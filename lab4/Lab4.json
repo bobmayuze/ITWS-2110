@@ -1,0 +1,40 @@
+{
+	"song": [
+	{ 
+		"songname":"Sweet Child O' Mine",
+	  	"artistname":"Guns N' Roses",
+	  	"albumname":"Appetite for Destruction",
+	  	"albumURL":"http://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg",
+	  	"releasedate":"1987",
+	  	"Genres":[{"Genre" : "Classic Rock"}, {"Genre" : "Hard Rock"}],
+	  	"artistsite":"www.gunsnroses.com"
+	},
+	{
+		"songname":"Long Time",
+	  	"artistname":"Boston",
+	  	"albumname":"Boston",
+	  	"albumURL":"http://joebond.com/wp-content/uploads/2013/05/album-Boston-Boston.jpg",
+	  	"releasedate":"1976",
+	  	"Genres":[{"Genre" : "Classic Rock"}, {"Genre" : "Progressive Rock"}],
+	  	"artistsite":"www.bandboston.com"
+	},
+	{
+		"songname":"More Than a Feeling",
+	  	"artistname":"Boston",
+	  	"albumname":"Boston",
+	  	"albumURL":"http://joebond.com/wp-content/uploads/2013/05/album-Boston-Boston.jpg",
+	  	"releasedate":"1976",
+	  	"Genres":[{"Genre" : "Classic Rock"}, {"Genre" : "Progressive Rock"}],
+	  	"artistsite":"www.bandboston.com"
+	},
+	{
+		"songname":"Smokin",
+	  	"artistname":"Boston",
+	  	"albumname":"Boston",
+	  	"albumURL":"http://joebond.com/wp-content/uploads/2013/05/album-Boston-Boston.jpg",
+	  	"releasedate":"1976",
+	  	"Genres":[{"Genre" : "Classic Rock"}, {"Genre" : "Progressive Rock"}],
+	  	"artistsite":"www.bandboston.com"
+	}
+	]
+}

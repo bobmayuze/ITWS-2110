@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ChrisParadislab2part4.css"?>
+<root_element xmlns:html="http://www.w3.org/1999/xhtml">
+
+<playlist>
+  <SONG>
+  	<SONGNAME>Sweet Child O' Mine </SONGNAME>
+  	<ARTISTNAME>Guns N' Roses </ARTISTNAME>
+  	<ALBUMNAME>Appetite for Destruction </ALBUMNAME>
+  	<RELEASEDATE>1987 </RELEASEDATE>
+  	<GENRE>Hard Rock </GENRE>
+  	<ARTISTNAMEWEBSITE> <html:a href="http://www.gunsnroses.com">www.gunsnroses.com</html:a></ARTISTNAMEWEBSITE>
+  	<CONVERTING><html:img src="abc.jpg" /></CONVERTING>
+  </SONG>
+
+  <SONG>
+  	<SONGNAME>Long Time </SONGNAME>
+  	<ARTISTNAME>Boston </ARTISTNAME>
+  	<ALBUMNAME>Boston </ALBUMNAME>
+  	<RELEASEDATE>1976 </RELEASEDATE>
+  	<GENRE>Classic Rock </GENRE>
+  	<ARTISTNAMEWEBSITE> <html:a href="http://www.bandboston.com">www.bandboston.com</html:a></ARTISTNAMEWEBSITE>
+  	<CONVERTING><html:img src="BostonBoston.jpg" /></CONVERTING>
+  </SONG>
+
+  <SONG>
+  	<SONGNAME>More Than a Feeling </SONGNAME>
+  	<ARTISTNAME>Boston </ARTISTNAME>
+  	<ALBUMNAME>Boston </ALBUMNAME>
+  	<RELEASEDATE>1976 </RELEASEDATE>
+  	<GENRE>Classic Rock </GENRE>
+  	<ARTISTNAMEWEBSITE> <html:a href="http://www.bandboston.com">www.bandboston.com</html:a></ARTISTNAMEWEBSITE>
+  	<CONVERTING><html:img src="BostonBoston.jpg" /></CONVERTING>
+  </SONG>
+
+  <SONG>
+  	<SONGNAME>Smokin </SONGNAME>
+  	<ARTISTNAME>Boston </ARTISTNAME>
+  	<ALBUMNAME>Boston </ALBUMNAME>
+  	<RELEASEDATE>1976 </RELEASEDATE>
+  	<GENRE>Classic Rock </GENRE>
+  	<ARTISTNAMEWEBSITE> <html:a href="http://www.bandboston.com">www.bandboston.com</html:a></ARTISTNAMEWEBSITE>
+  	<CONVERTING><html:img src="BostonBoston.jpg" /></CONVERTING>
+  </SONG>
+  
+</playlist>
+</root_element>

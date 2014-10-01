@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--CSS in the header as well as replacing the image with CSS-->
+    <style>
+        body {
+            background-color:#ADD8E6;
+        }
+    </style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Lab 6 - Finished</title>
+    <style>
+        [touch-action="none"] {
+            -ms-touch-action: none;
+            touch-action: none;
+        }
+        [touch-action="pan-x"] {
+            -ms-touch-action: pan-x;
+            touch-action: pan-x;
+        }
+        [touch-action="pan-y"] {
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+        }
+        [touch-action="scroll"], [touch-action="pan-x pan-y"], [touch-action="pan-y pan-x"] {
+            -ms-touch-action: pan-x pan-y;
+            touch-action: pan-x pan-y;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <a href="" id="showall">Show All</a>
+
+        <!--This empty list element replaces the 5,000 list elements of the original file.-->
+        <ul id="foo" class="bar">
+            <li></li>
+        </ul>
+    </div>
+
+    <!--JavaScript in the bottom-->
+    <script src="./Lab 6_files/jquery-1.7.1.js"></script>
+    <style type="text/css"></style>
+    <script>
+        $(document).ready(function () {
+            for (var i = 0; i < 5000; i++) {
+                $("div.bar ul#foo").append("<li>This is an item in the list. Click to make me disappear.</li>");
+            }
+            $('ul').click(function (e) {
+                if ($(e.target).is('li')) {
+                    $(e.target).hide(400);
+                }
+            });
+            $("#showall").click(function (e) {
+                $("li").show(400);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+
+<body>
+
+        /*Sets the values for a default list value */
+        li{
+          list-style: None;
+          padding: 10;
+          margin-top: 40px;
+          margin-bottom: 90px;
+        }
+
+        /*In each class floating the text left is just a method of insuring all the text will space out properly in the final
+        product. The width and height were left largely the same for each class with the details for spacing and 
+        alignment taking place in the specific "sub-classes?" I guess I will call them holding the information
+        for list elements in the main class. The border is solid and in most cases I made it the same color as the background 
+        to give the site the appearence of lying on a grey background when in reality, that is just the border.*/
+
+      	.songname {
+	        text-align: left;
+	        float: left;
+	        width: 220px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: 1.2em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#D74B4B;
+          background-color:#D74B4B;
+	      }
+
+        .songname li{
+          list-style: None;
+          padding: 10;
+          margin-top: 40px;
+          margin-bottom: 90px;
+        }
+
+	    .artistName {
+	      text-align: left;
+	      float: left;
+	      width: 220px;
+        height:440px;
+	      margin: 0px 0 0 0;
+	      padding: 0;
+	      font-size: 1.2em;
+        border-style:solid;
+        border-width:5px;
+        border-color:#DCDDD8;
+        background-color:#DCDDD8;
+
+	      }
+
+        .artistName li{
+          list-style: None;
+          padding: 10;
+          margin-top: 40px;
+          margin-bottom: 90px;
+        }
+
+	    .albumName {
+	        text-align: left;
+	        float: left;
+	        width: 220px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: 1.2em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#DCDDD8;
+          background-color:#DCDDD8;
+	      }
+
+        .albumName li{
+          list-style: None;
+          padding: 10;
+          margin-top: 40px;
+          margin-bottom: 90px;
+        }
+
+	    .albumCover {
+	        text-align: left;
+	        float: left;
+	        width: 100px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: 1.2em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#DCDDD8;
+          background-color:black;
+	      }
+
+         .albumCover li{
+            margin-top: 0px;
+            margin-bottom: 6px;
+         }
+
+	    .ReleaseDate {
+			    text-align: left;
+	        float: left;
+	        width: 150px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: .9em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#DCDDD8;
+          background-color:#DCDDD8;
+	      }
+
+         .ReleaseDate li{
+            margin-top: 45px;
+            margin-bottom: 95px;
+         }
+
+	    .Genre {
+	        text-align: left;
+	        float: left;
+	        width: 150px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: .9em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#DCDDD8;
+          background-color:#DCDDD8;
+        }
+        .Genre li{
+            margin-top: 40px;
+            margin-bottom: 95px;
+            list-style:disc;
+        }
+
+	  
+
+	    .Website {
+	        text-align: left;
+	        float: left;
+	        width: 250px;
+          height:440px;
+	        margin: 0px 0 0 0;
+	        padding: 0;
+	        font-size: 1.2em;
+          border-style:solid;
+          border-width:5px;
+          border-color:#D74B4B;
+          background-color:#D74B4B
+
+	      }
+
+        .Website li{
+          list-style: None;
+          padding: 10;
+          margin-top: 40px;
+          margin-bottom: 90px;
+        }
+
+         li.small {
+            font-variant:small-caps;
+         }
+
+         .header {
+            text-align:left;
+            height: 2em;
+            width: 1380px;
+            font-size: .9em;
+            background-color:#D74B4B;
+            margin: 20px 0 0 0;
+            padding: 0;
+            font-size: 1.0em;
+         }
+         /*The inline dsiplay command allowed me to make every header its own lisst element then move them using 
+         margins and padding to line them up with their respective column */
+
+         .header li{
+            display: inline;
+            margin-right: 55px;
+            padding-left: 60px;
+         }
+
+          /*The footer ended up being the result of a lot of trial and error. The width is the length of the whole 
+          list but the text was not centered correctly. I use the list element below to center it correctly. */
+         #footer {
+             text-align:center;
+             width: 1340px;
+             clear: both;
+             position: relative;
+             height: 1em;
+             font-size: .9em;
+             background-color:#DCDDD8;
+            }
+
+         #footer li {
+          padding-right:22px;
+        }
+</body>
